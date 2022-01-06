@@ -27,6 +27,5 @@ export default {
    
 }
 
-//export const Template = (args)=> <Heading {...args} />
 
 export const Base = (args) => <BaseTemplate {...args} />

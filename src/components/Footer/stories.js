@@ -19,6 +19,5 @@ export default {
    
 }
 
-//export const Template = (args)=> <Heading {...args} />
 
 export const FooterTemp = (args) => <Footer {...args} />

@@ -1,5 +1,5 @@
-import { css } from "styled-components";
-import { createGlobalStyle } from "styled-components";
+import { css } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -33,11 +33,11 @@ export const GlobalStyle = createGlobalStyle`
         color: #C40808;
     }
     button{
-        ${({theme})=> css`
-            background-color: ${theme.colors.mainBg};
-            color: white;
+        ${({ theme }) => css`
+          background-color: ${theme.colors.mainBg};
+          color: white;
         `}
     }
 
    
-`
+`;
